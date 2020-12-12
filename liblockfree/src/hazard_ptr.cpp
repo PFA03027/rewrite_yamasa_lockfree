@@ -1,7 +1,8 @@
+#include "hazard_ptr.hpp"
+
 #include <algorithm>
 #include <mutex>
 
-#include "hazard_ptr.hpp"
 
 #ifndef HAZARD_FLUSH_SIZE
 #define HAZARD_FLUSH_SIZE 16
